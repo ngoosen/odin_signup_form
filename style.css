@@ -25,7 +25,7 @@ section {
 }
 
 .image_div {
-  width: 30vw;
+  width: 35vw;
 
   background-image: url("media/trees.avif");
   background-position: 50%;
@@ -56,4 +56,107 @@ section {
   font-family: "Norse";
   font-size: 120px;
   margin-left: 20px;
+}
+
+.form_div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.form_div h2, .form_div p, .form_div button {
+  margin: 0 50px;
+}
+
+.form_div h2 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.main_form {
+  display: flex;
+  flex-direction: column;
+
+  margin: 20px 0;
+  padding: 20px 50px;
+
+  background-color: #fefff9;
+  box-shadow: 0 0 10px 0 #b1b1b1;
+}
+
+.main_form legend {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.inputs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+
+  margin: 20px 0;
+}
+
+.inputs div {
+  display: flex;
+  flex-direction: column;
+
+  width: 40%;
+}
+
+.inputs label {
+  margin-bottom: 5px;
+}
+
+.inputs input {
+  appearance: none;
+  border: none;
+
+  width: 80%;
+  height: 30px;
+
+  padding: 5px;
+
+  border: 1px solid #b1b1b1;
+  border-radius: 5px;
+
+  background-color: #ffffff;
+}
+
+.form_div button {
+  appearance: none;
+  border: none;
+
+  padding: 15px 50px;
+
+  font-size: 18px;
+  font-weight: bold;
+
+  border-radius: 10px;
+
+  color: #ffffff;
+  background-color: #30421f;
+
+  transition: all .2s;
+}
+
+.form_div button:hover {
+  cursor: pointer;
+  color: #30421f;
+  background-color: #a0af92;
+}
+
+.form_div p {
+  margin-top: 15px;
+}
+
+.form_div a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #30421f;
+}
+
+.form_div a:hover {
+  cursor: pointer;
+  text-decoration: underline;
 }
