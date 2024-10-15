@@ -124,6 +124,11 @@ section {
   background-color: #ffffff;
 }
 
+.inputs input:focus {
+  outline: none;
+  border-color: #30421f;
+}
+
 .form_div button {
   appearance: none;
   border: none;
