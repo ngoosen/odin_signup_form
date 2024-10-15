@@ -129,6 +129,14 @@ section {
   border-color: #30421f;
 }
 
+.inputs input:focus:invalid {
+  border: 2px solid #e73434;
+}
+
+.inputs input:focus:valid {
+  border: 2px solid #a0af92;
+}
+
 .form_div button {
   appearance: none;
   border: none;
