@@ -65,7 +65,8 @@ section {
 }
 
 .form_div h2, .form_div p, .form_div button {
-  margin: 0 50px;
+  margin-left: 50px;
+  margin-right: 100px;
 }
 
 .form_div h2 {
